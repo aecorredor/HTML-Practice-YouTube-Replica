@@ -102,23 +102,15 @@ START */
 .video-details {
   background-color: #fff;
   width: 100%;
-  height: 130px;
+  height: 150px;
   margin-top: 10px;
 }
 
-.video-description {
+.extra-info {
   background-color: #fff;
   width: 100%;
-  height: 130px;
+  height: 150px;
   margin-top: 10px;
-}
-
-.comments {
-  background-color: #fff;
-  width: 100%;
-  height: 500px;
-  margin-top: 10px;
-  margin-bottom: 80px;
 }
 
 .sidebar {
@@ -128,14 +120,6 @@ START */
   height: 120%;
   margin-left: 66.3%;
   margin-top: 60px;
-}
-
-footer {
-  position: absolute;
-  margin-top: 1450px;
-  height:120px;
-  width:100%;
-  background-color: #fff;
 }
 
 .logo {
@@ -174,4 +158,132 @@ footer {
   margin-right: 10px;
   font-weight: 500;
   font-size: 10px;
+}
+
+.description-top {
+  font-family: Roboto,arial,sans-serif;
+  margin-left: 1.5%;
+  margin-top: 1.5%;
+  width: 97%;
+  height: 60%;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.profile-pic {
+  float: left;
+}
+
+.poster-info {
+  margin-top: 15px;
+  float: left;
+}
+
+.poster-info a {
+  margin-left: 8px;
+  color: black;
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.subscribe-section {
+  margin-top: 8px;
+  margin-left: 55px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.subscribe-section span {
+  font-size: 11px;
+  padding: 5px;
+  border: solid thin rgb(196, 195, 195);
+  background-color: rgb(247, 245, 245);
+}
+
+.subscribe-section button {
+  color: white;
+  border-color: transparent;
+  background-color: red;
+  font-size: 11px;
+  width: 80px;
+}
+
+.views {
+  margin-top: 5.5%;
+  padding-left: 5%;
+  padding-bottom: 5px;
+  border-bottom: solid 2px rgb(54, 124, 230);
+  float: right;
+  font-size: 20px;
+  color: rgb(121, 119, 119);
+}
+
+.description-bottom {
+  display: inline-block;
+  font-family: Roboto,arial,sans-serif;
+  font-size: 11px;
+  color: rgb(153, 153, 153);
+  border-top: solid 1px rgb(173, 171, 171);
+  margin-left: 1.5%;
+  height: 40px;
+  width: 97%;
+}
+
+.add-to {
+  margin-top: 15px;
+  margin-left: 2%;
+  margin-right: 6%;
+  display: inline-block;
+}
+
+.share {
+  margin-right: 6%;
+  display: inline-block;
+}
+
+.more {
+  margin-right: 59%;
+  display: inline-block;
+}
+.likes {
+  margin-right: 2%;
+  display: inline;
+}
+
+.dislikes {
+  display: inline;
+}
+
+.info {
+  font-family: Roboto,arial,sans-serif;
+  font-size: 13px;
+  line-height: 125%;
+  width: 97%;
+  margin-left: 1.5%;
+  margin-top: 15px;
+  padding-bottom: 7%;
+  border-bottom: solid 1px rgb(173, 171, 171);
+}
+
+.info span {
+    font-weight: bold;
+}
+
+.more-info {
+  font-family: Roboto,arial,sans-serif;
+  font-size: 11px;
+  color: rgb(119, 116, 116);
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-weight: 500;
+  letter-spacing: 0px;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
